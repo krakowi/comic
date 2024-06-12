@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Рассмеши смешного || Gilbert</title>
+    <!-- Подключение файла стилей -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.png">
+</head>
+<body>
+    <div id="container">
+        <div id="round">Круг: 1/5</div>
+        <div id="timer">01:00</div>
+    </div>
+    <div class="buttons">
+        <button id="startStopBtn" onclick="toggleTimer()">Запустить таймер</button>
+        <button onclick="resetTimer()">Сбросить таймер</button>
+        <button onclick="resetAll()">Сбросить все</button>
+        <button onclick="nextRound()">Следующий круг</button>
+    </div>
+
+    <!-- The Modal -->
+    <div id="winnerModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>🏆Победитель!😹</h2>
+        </div>
+    </div>
+
+    <!-- Подключение внешнего JavaScript файла -->
+    <script src="script.js"></script>
+</body>
+</html>
