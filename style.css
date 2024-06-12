@@ -17,7 +17,7 @@ body {
 }
 
 #round, #timer {
-    font-size: 7em;
+    font-size: 6em;
     color: white;
     
     font-family: 'Comic Sans MS', bold; /* Устанавливает шрифт 'Comic Sans MS' */
